@@ -32,4 +32,4 @@ Python · PyTorch · FastAPI · PostgreSQL · Docker · AWS · JavaScript · YOL
 
 📧 dtynysba@purdue.edu
 🔗 [linkedin.com/in/dinmukhamed-tynysbay](https://linkedin.com/in/dinmukhamed-tynysbay)
-🌐 [personal-website-liard-zeta.vercel.app](https://personal-website-liard-zeta.vercel.app)
+🌐 [dinmukhamed.vercel.app](https://dinmukhamed.vercel.app)
