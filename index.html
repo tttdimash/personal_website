@@ -142,7 +142,7 @@
     }
     .stats-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       gap: 1px;
       background: var(--border);
       border: 1px solid var(--border);
@@ -313,7 +313,7 @@
       .nav-links { display: none; position: absolute; top: 56px; left: 0; right: 0; background: var(--bg); border-bottom: 1px solid var(--border); flex-direction: column; padding: 1rem 1.5rem; gap: 1rem; }
       .nav-links.open { display: flex; }
       .nav-toggle { display: flex; }
-      .stats-grid { grid-template-columns: 1fr; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
       .projects-grid { grid-template-columns: 1fr; }
       .skills-grid { grid-template-columns: 1fr; }
       footer { flex-direction: column; align-items: flex-start; }
@@ -334,6 +334,7 @@
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
     <a href="#experience">Experience</a>
+    <a href="#cp">CP</a>
     <a href="#skills">Skills</a>
     <a href="#contact">Contact</a>
   </div>
@@ -376,6 +377,10 @@
     <div class="stat-card">
       <div class="stat-number">35%</div>
       <div class="stat-desc">Misclassification drop on the Cello CV pipeline</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-number">42nd</div>
+      <div class="stat-desc">Out of 9,000 students — AITU ICode national CP competition</div>
     </div>
   </div>
 </section>
@@ -571,6 +576,45 @@
           <li>Replaced ChatGPT API with optimised DistilBERT &amp; T5 models for ASR, sentiment, and intent pipelines — <strong>40% inference latency reduction</strong>.</li>
           <li>Built Python ETL pipelines into PostgreSQL with tuned indexes, accelerating compliance analytics by <strong>3–5×</strong>.</li>
           <li>Automated labeling for 88%+ of transcripts, enabling auditing and trend visualization across <strong>1,000+ hours</strong> of audio data.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider" />
+
+<!-- COMPETITIVE PROGRAMMING -->
+<section id="cp">
+  <div class="section-label">Competitions</div>
+  <h2>Competitive Programming</h2>
+  <div class="timeline">
+
+    <div class="tl-item">
+      <div class="tl-left">
+        <div class="tl-dot dot-green"></div>
+        <div class="tl-line"></div>
+      </div>
+      <div class="tl-content">
+        <div class="tl-role">AITU ICode</div>
+        <div class="tl-meta">National Competitive Programming Competition · Kazakhstan</div>
+        <ul>
+          <li>Placed <strong>42nd out of 9,000 students</strong> in one of Kazakhstan's largest national programming contests.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-left">
+        <div class="tl-dot dot-blue"></div>
+        <div class="tl-line"></div>
+      </div>
+      <div class="tl-content">
+        <div class="tl-role">Eurasian Olympiad</div>
+        <div class="tl-meta">International Programming Competition</div>
+        <ul>
+          <li>Ranked <strong>top 6% out of 529 teams</strong> in an international multi-country programming competition.</li>
         </ul>
       </div>
     </div>
